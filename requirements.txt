@@ -5,3 +5,10 @@ pylint==2.15.7
 black==22.10.0
 fire==0.4.0
 ipython==8.7.0
+fastapi==0.88.0
+uvicorn==0.20.0
+spacy==3.4.3
+textblob==0.17.1
+spacy-download==1.0.0
+en-core-web-sm==3.4.1
+httpx==0.23.1
