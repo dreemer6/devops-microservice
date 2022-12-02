@@ -23,3 +23,5 @@ Now every new Terminal window will open with the .venv environment
 4. Populate `Makefile`
 
 5. Setup Continuous Integration and check for code issues
+![CI failure due to incompatible python version](https://user-images.githubusercontent.com/29081638/205202326-e4b9405c-19b0-4c74-8a05-a1c743e2a6d2.png)
+
