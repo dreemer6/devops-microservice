@@ -22,5 +22,5 @@ def phrases(name):
         page = wiki(name)
         phrase = TextBlob(page)
         return phrase.noun_phrases
-    except Exception as error:
+    except TypeError as error:
         print(f"Error in Wikipedia response: {error}")
