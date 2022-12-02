@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/dreemer6/devops-microservice/actions/workflows/devops.yml/badge.svg)](https://github.com/dreemer6/devops-microservice/actions/workflows/devops.yml)
+
 
 # Python Microservice DevOps Demo
 
