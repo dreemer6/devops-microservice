@@ -1,25 +1,23 @@
-[![Python application test with Github Actions](https://github.com/dreemer6/devops-microservice/actions/workflows/devops.yml/badge.svg)](https://github.com/dreemer6/devops-microservice/actions/workflows/devops.yml)
-
 
 # Python Microservice DevOps Demo
 
+[![Python application test with Github Actions](https://github.com/dreemer6/devops-microservice/actions/workflows/devops.yml/badge.svg)](https://github.com/dreemer6/devops-microservice/actions/workflows/devops.yml)
+
+
 ## Steps
 
-### Create a virtual environment
-
+1. Create a virtual environment
 `python3 -m venv ~/.venv` or `virtualenv ~/.venv`
 
-### Source the environment in the ~/.bashrc file
-
+2. Source the environment in the ~/.bashrc file
 `nano ~/.bashrc` -> On the last line of the file enter `source ~/.venv/bin/activate` then save file.
 Now every new Terminal window will open with the .venv environment
 
-### Create empty files
-
+3. Create empty files
 `touch requirements.txt Dockerfile Makefile main.py`
 `mkdir mylib`
 `cd mylib`
 `touch __init__.py logic.py`
 `cd ..`
 
-### Populate Makefile
+4. Populate Makefile
