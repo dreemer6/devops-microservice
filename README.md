@@ -20,4 +20,6 @@ Now every new Terminal window will open with the .venv environment
 `touch __init__.py logic.py`
 `cd ..`
 
-4. Populate Makefile
+4. Populate `Makefile`
+
+5. Setup Continuous Integration and check for code issues
